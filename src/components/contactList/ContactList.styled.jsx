@@ -1,14 +1,12 @@
 import styled from 'styled-components';
 
 const ContactBook = styled.ul`
-  padding-top: 20px;
   display: flex;
   flex-direction: column;
   gap: 10px;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
-  border-top: 1.5px solid #96006e;
 `;
 
 const ContactItem = styled.li`
